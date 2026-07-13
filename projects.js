@@ -4,6 +4,8 @@ const projects = [
 
         title: "Back Door Striker Design",
 
+        role: "Assembly",
+
         year: "2024",
 
         software: "CATIA V5",
@@ -26,6 +28,8 @@ const projects = [
         id: "door-hinge",
 
         title: "Door Hinge Design",
+
+        role: "Assembly",
 
         year: "2024",
 
@@ -51,6 +55,8 @@ const projects = [
 
         title: "KO Door Bench Design",
 
+        role: "Part",
+
         year: "2024",
 
         software: "CATIA V5",
@@ -72,6 +78,8 @@ const projects = [
         id: "plasting-housing",
 
         title: "Plastic Housing Design",
+
+        role: "Part (Plastic Design)",
 
         year: "2024",
 
@@ -95,6 +103,8 @@ const projects = [
         id: "plate-base",
 
         title: "Plate Base Design",
+
+        role: "Part (Sheet Metal)",
 
         year: "2024",
 

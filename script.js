@@ -139,8 +139,6 @@ function updateModal() {
 
     modalTitle.textContent = project.title;
 
-    modalCompany.textContent = project.company;
-
     modalDescription.textContent = project.description;
 
     modalSoftware.textContent = project.software;
