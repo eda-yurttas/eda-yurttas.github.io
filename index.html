@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Eda Yurttaş | Mechanical Design Engineer
+    </title>
+
+    <meta
+        name="description"
+        content="Mechanical Design Engineer Portfolio">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+
+
+
+
+
+<!-- =====================================================
+
+HERO
+
+====================================================== -->
+
+<header class="hero">
+
+    <div class="hero-content">
+
+        <span class="hero-tag">
+
+            Mechanical Design Engineer
+
+        </span>
+
+
+        <h1>
+
+            Eda Yurttaş
+
+        </h1>
+
+
+        <p class="hero-subtitle">
+
+            Mechanical Design • CAD Modeling • Product Development
+
+        </p>
+
+
+        <p class="hero-description">
+
+            Mechanical engineer passionate about CAD modeling,
+            mechanical design and product development.
+            Currently expanding my software engineering skills
+            while building modern engineering projects.
+
+        </p>
+
+
+
+        <div class="hero-buttons">
+
+            <a
+                href="#portfolio"
+                class="btn primary-btn">
+
+                View Projects
+
+            </a>
+
+
+            <a
+                href="cv.pdf"
+                class="btn secondary-btn"
+                download>
+
+                Download CV
+
+            </a>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+
+
+
+
+<!-- =====================================================
+
+PORTFOLIO
+
+====================================================== -->
+
+<main>
+
+<section
+id="portfolio"
+class="portfolio-section">
+
+    <div class="section-title">
+
+        <h2>
+
+            Selected Projects
+
+        </h2>
+
+        <p>
+
+            Automotive mechanical design projects.
+
+        </p>
+
+    </div>
+
+
+
+    <!--
+    JavaScript bütün kartları buraya oluşturacak.
+    HTML içinde artık hiçbir project-card olmayacak.
+    -->
+
+    <div
+
+        id="portfolioGrid"
+
+        class="portfolio-grid">
+
+    </div>
+
+</section>
+
+
+
+
+
+
+<!-- =====================================================
+
+PROJECT MODAL
+
+====================================================== -->
+
+<div
+id="projectModal"
+class="modal">
+
+
+    <div class="modal-overlay"></div>
+
+
+    <div class="modal-container">
+
+
+        <button
+            class="modal-close"
+            id="closeModal">
+
+            ×
+
+        </button>
+
+
+
+        <button
+            class="project-arrow left"
+            id="prevProject">
+
+            &#10094;
+
+        </button>
+
+
+
+        <button
+            class="project-arrow right"
+            id="nextProject">
+
+            &#10095;
+
+        </button>
+
+
+
+        <div class="modal-image-wrapper">
+
+            <img
+
+                id="modalImage"
+
+                src=""
+
+                alt="Project Render">
+
+        </div>
+
+
+
+        <div
+
+            id="renderDots"
+
+            class="render-dots">
+
+        </div>
+
+
+
+        <div class="modal-content">
+
+
+            <div class="modal-header">
+
+
+                <h2
+                    id="modalTitle">
+
+                </h2>
+
+
+                <span
+                    id="modalCompany">
+
+                </span>
+
+            </div>
+
+            <p
+                id="modalDescription">
+
+            </p>
+
+
+
+            <div class="modal-meta">
+
+                <div class="meta-item">
+
+                    <span class="meta-label">
+
+                        Software
+
+                    </span>
+
+                    <span
+                        id="modalSoftware"
+                        class="meta-value">
+
+                    </span>
+
+                </div>
+
+
+
+                <div class="meta-item">
+
+                    <span class="meta-label">
+
+                        Role
+
+                    </span>
+
+                    <span
+                        id="modalRole"
+                        class="meta-value">
+
+                    </span>
+
+                </div>
+
+
+
+                <div class="meta-item">
+
+                    <span class="meta-label">
+
+                        Year
+
+                    </span>
+
+                    <span
+                        id="modalYear"
+                        class="meta-value">
+
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</main>
+
+
+
+
+
+
+<!-- =====================================================
+
+FOOTER
+
+====================================================== -->
+
+<footer>
+
+    <p>
+
+        © 2026 Eda Yurttaş. All rights reserved.
+
+    </p>
+
+</footer>
+
+
+
+
+
+
+<!-- =====================================================
+
+SCRIPTS
+
+====================================================== -->
+
+<script src="projects.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
